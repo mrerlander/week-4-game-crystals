@@ -1,0 +1,34 @@
+.navbar {
+    background: #ffb6c1;
+    font-family: 'Monoton', cursive;
+}
+
+body {
+    background-image: url("../images/spiration-light.png");
+}
+
+.container {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron {
+    background: #add6ab;
+}
+
+.panel-title {
+    font-size: 2em;
+    background: #e0ffff;
+}
+
+.panel-heading {
+    background: #e0ffff;
+    padding: 0;
+}
+
+.losses, .wins {
+    background: #dda0dd;
+}
+
+.panel-body {
+    font-weight: bold;
+}
