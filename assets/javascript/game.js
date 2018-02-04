@@ -19,8 +19,10 @@ $(document).ready(function () {
     function reset() {
         score = 0; //set score to 0
         $("#user-score").text(score); //set text of score area to 0
+        
         compNumber = randomCompNumber(); //generate random computer number
         $("#matching-number").text(compNumber); //set text of number to match area
+        
         randomGemNumbers = []; //set random gem array to zero 
         while (randomGemNumbers.length < 4) {   //generate random number array
             var random = Math.floor(Math.random() * 12) + 1;
@@ -28,6 +30,7 @@ $(document).ready(function () {
                 randomGemNumbers.push(random);
             }
         };
+        
         for (var i = 0; i < 4; i++) { //set value of each gem to a randomGemNumber array value
             $("#gem-" + i).val(randomGemNumbers[i]);
             console.log($("#gem-" + i).val());
