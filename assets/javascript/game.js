@@ -33,7 +33,6 @@ $(document).ready(function () {
         
         for (var i = 0; i < 4; i++) { //set value of each gem to a randomGemNumber array value
             $("#gem-" + i).val(randomGemNumbers[i]);
-            console.log($("#gem-" + i).val());
         }
     }
 
