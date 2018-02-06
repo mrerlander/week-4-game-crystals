@@ -8,6 +8,9 @@ $(document).ready(function () {
     var compNumber;
     var randomGemNumbers;
 
+    //audio file
+    var audio = new Audio("assets/194439__high-festiva__gem-ping.wav");
+
     //function to generate computer number between 19 and 120
     function randomCompNumber(min, max) {
         min = Math.ceil(19);
@@ -44,6 +47,9 @@ $(document).ready(function () {
 
         //updates score
         score = Number(score) + Number($(this).val());
+
+        //play audio
+        audio.play();
 
         //win condition
         if (score === compNumber) {

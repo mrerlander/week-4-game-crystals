@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.jumbotron {
+#rules {
     background: #add6ab;
 }
 
@@ -31,4 +31,8 @@ body {
 
 .panel-body {
     font-weight: bold;
+}
+
+#panel-overflow {
+    overflow: hidden;
 }

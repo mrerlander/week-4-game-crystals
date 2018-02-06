@@ -16,10 +16,10 @@
     <div class="navbar navbar-default container-fluid text-center">
         <h1>Crystal Collector!</h1>
     </div>
-    <div class="container">
+    <div class="container" id="container-change">
         <div class="row">
             <div class="col-xs-12">
-                <div class="jumbotron">
+                <div class="panel panel-default" id="rules">
                     <h2>How To Play</h2>
                     <br>
                     <p>You will be given a random number at the start of the game.</p>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-3 text-center">
+            <div class="col-xs-12 col-md-3 text-center">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Number to match:</h3>
@@ -40,15 +40,15 @@
                     <div class="panel-body" id="matching-number"></div>
                 </div>
             </div>
-            <div class="col-xs-6 text-center">
-                <div class="panel panel-default">
-                    <img class="gemstone" id="gem-0" src="assets/images/if_Cushion_2647513.png" alt="cushion gem">
-                    <img class="gemstone" id="gem-1" src="assets/images/if_Emerald_2647511.png" alt="emerald gem">
-                    <img class="gemstone" id="gem-2" src="assets/images/if_Emerald_diamond_2647512.png" alt="emerald diamond gem">
-                    <img class="gemstone" id="gem-3" src="assets/images/if_Marquis_diamond_2647510.png" alt="marquis diamond gem">
+            <div class="col-xs-12 col-md-6 text-center">
+                <div class="panel panel-default" id="panel-overflow">
+                    <img class="gemstone img-responsive col-xs-3" id="gem-0" src="assets/images/if_Cushion_2647513.png" alt="cushion gem">
+                    <img class="gemstone img-responsive col-xs-3" id="gem-1" src="assets/images/if_Emerald_2647511.png" alt="emerald gem">
+                    <img class="gemstone img-responsive col-xs-3" id="gem-2" src="assets/images/if_Emerald_diamond_2647512.png" alt="emerald diamond gem">
+                    <img class="gemstone img-responsive col-xs-3" id="gem-3" src="assets/images/if_Marquis_diamond_2647510.png" alt="marquis diamond gem">
                 </div>
             </div>
-            <div class="col-xs-3 text-center">
+            <div class="col-xs-12 col-md-3 text-center">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Your score:</h3>
@@ -58,12 +58,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-3 pull-left">
+            <div class="col-xs-6 col-md-3 pull-left">
                 <div class="panel panel-default text-center losses">
                     <h3 id="win-counter">Wins:</h3>
                 </div>
             </div>
-            <div class="col-xs-3 pull-right">
+            <div class="col-xs-6 col-md-3 pull-right">
                 <div class="panel panel-default text-center wins">
                     <h3 id="loss-counter">Losses:</h3>
                 </div>
