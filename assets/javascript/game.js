@@ -49,7 +49,7 @@ $(document).ready(function () {
         score = Number(score) + Number($(this).val());
 
         //play audio
-        audio.play();
+        //audio.play();
 
         //win condition
         if (score === compNumber) {
